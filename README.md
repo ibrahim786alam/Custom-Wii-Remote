@@ -10,7 +10,7 @@
 
 ## Hardware :
 
-- ESP-12E / ESP8266
+- ESP-12E / ESP8266 (an ESP-32 would be better but this is what I have on hand)
 - MPU6050 / MPU-6500 IMU
 - 2 push buttons (A and B)
 - Connecting wires
@@ -51,9 +51,11 @@ The ESP-12E sends the following data over UDP on port `4210`:
 
 The Python bridge receives the packets and converts the sensor data for use in Dolphin.
 
+
+
 ## Current Progress
 
-- ESP-12E Wi-Fi communication working
+- ESP-12E Wi-Fi communication working 
 - A/B button inputs working
 - MPU6050 motion data received by the Python bridge
 - Gyroscope axis mapping configured for Dolphin
